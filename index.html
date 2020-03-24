@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doe sangue! Doe vida!</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <header>
+        <img src="/img/logo.png" alt="imagem de DOE" class="logo">
+        <h2>A sua doação importa</h2>
+        <p>Até 3 vidas com 1 doação.</p>
+        <p>Mais de 38.000 doações são necessária todos os dias.</p>
+        <p>Apenas 1,9% da população brasileira doa sangue.</p>
+        <button>Quero ajudar</button>
+    </header>
+
+    <section class="form hide">
+        <h2>Entre na lista de doadores</h2>
+        <form action="/" method="post">
+            <input type="text" name="name" placeholder="Nome completo" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <select name="select">
+                <option selected>Tipo sanguíneo</option>
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+            </select>
+            <button>Quero ajudar</button>
+        </form>
+    </section>
+    
+    <main>
+        <h2>Últimos <span>doadores</span></h2>
+
+        <section class="donors">
+
+            {% for donor in donors %}
+
+            <div class="donor">
+                <div class="blood">{{ donor.blood }}</div>
+                <p>{{ donor.nome }}</p>
+            </div>
+            
+            {% endfor %}
+        </section>
+    </main>
+    
+    <footer>
+        Com <span>❤</span> Geovane Borba 
+    </footer>
+<script src="./js/scripts.js"></script>
+</body>
+</html>
