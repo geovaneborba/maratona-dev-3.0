@@ -59,7 +59,7 @@ O Doe é uma aplicação web para cadastrar doações de sangue, desenvolvido du
   # Iniciar o Postgres
   docker start postgres
 ```
-<p>Utilize o Postbird ou um Postgres Client de sua preferência para criar o banco e a tabela de doadores: </p> <br>
+<p>Utilize o Postbird ou um Postgres Client de sua preferência para criar o banco e a tabela de doadores: </p>
 
 ```sql
   # Criando o banco
