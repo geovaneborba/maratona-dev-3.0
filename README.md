@@ -103,6 +103,6 @@ O Doe é uma aplicação web para cadastrar doações de sangue, desenvolvido du
   # Rodar a aplicação:
   $ yarn dev 
 ```
-Acesse http://localhost:3001 com 0 seu navegador preferido!
+Acesse: http://localhost:3001 com o seu navegador preferido!
 
 Feito com ❤️ por Geovane Borba 👋🏻 [Get in touch!](https://github.com/geovaneborba)
