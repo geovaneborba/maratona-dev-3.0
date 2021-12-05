@@ -2,15 +2,15 @@
   "name": "maratonadev",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "./src/server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "dev": "nodemon ./src/server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "mysql": "^2.18.1",
-    "nunjucks": "^3.2.1"
+    "nunjucks": "^3.2.1",
+    "pg": "^8.7.1"
   }
 }
