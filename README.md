@@ -28,7 +28,7 @@
 </h1>
 
 ## :page_with_curl: Sobre
-O Doe é uma aplicação web para cadastrar doações de sangue, desenvolvido durante a MaratonaDev 3.0 da [Rocketseat](https://rocketseat.com.br/).
+O Doe é uma aplicação web para cadastrar doações de sangue, desenvolvido durante a MaratonaDev 3.0 da [Rocketseat](https://rocketseat.com.br/) realizado durante os dias 17 e 18 de fevereiro de 2020.
 
 ## :rocket: Tecnologias
 - [HTML](https://devdocs.io/html/)
@@ -36,6 +36,7 @@ O Doe é uma aplicação web para cadastrar doações de sangue, desenvolvido du
 - [Javascript](https://devdocs.io/javascript/)
 - [Node.JS](https://nodejs.org/en/)
 - [PostgreSQL](https://www.postgresql.org/)
+- [Docker](https://www.docker.com/)
 
 ## :books: Requisitos
 - Ter [**Git**](https://git-scm.com/) para clonar o projeto.
